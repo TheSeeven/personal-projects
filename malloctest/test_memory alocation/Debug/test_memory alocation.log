@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Onedrive\Documents\Facultate\Programing\C\malloctest\test_memory alocation\Source.cpp(8,36): warning C4307: '*': signed integral constant overflow
+  test_memory alocation.vcxproj -> C:\Onedrive\Documents\Facultate\Programing\C\malloctest\test_memory alocation\Debug\test_memory alocation.exe

@@ -1,0 +1,2 @@
+C:\Onedrive\Documents\Facultate\Programing\C\memory_trasher\x64\Debug\memory_trasher.exe
+C:\Onedrive\Documents\Facultate\Programing\C\memory_trasher\x64\Debug\memory_trasher.pdb

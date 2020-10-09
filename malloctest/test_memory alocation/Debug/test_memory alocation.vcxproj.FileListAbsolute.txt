@@ -1,0 +1,2 @@
+C:\Onedrive\Documents\Facultate\Programing\C\malloctest\test_memory alocation\Debug\test_memory alocation.exe
+C:\Onedrive\Documents\Facultate\Programing\C\malloctest\test_memory alocation\Debug\test_memory alocation.pdb
