@@ -1,0 +1,2 @@
+C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest\x64\Debug\cudatest.exe
+C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest\x64\Debug\cudatest.pdb

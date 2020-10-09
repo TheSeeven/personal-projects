@@ -1,0 +1,15 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest>"C:\Programare\CUDA\Development\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\bin\HostX86\x64" -x cu   -IC:\Programare\CUDA\Development\include -IC:\Programare\CUDA\Development\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest\kernel.cu" 
+C:/Onedrive/Documents/Facultate/Programing/CUDA/Test/cudatest/kernel.cu(36): warning : a __device__ variable "a" cannot be directly read in a host function
+  
+C:/Onedrive/Documents/Facultate/Programing/CUDA/Test/cudatest/kernel.cu(38): warning : a __device__ variable "a" cannot be directly read in a host function
+  
+C:/Onedrive/Documents/Facultate/Programing/CUDA/Test/cudatest/kernel.cu(38): warning : a __device__ variable "a" cannot be directly written in a host function
+  
+C:/Onedrive/Documents/Facultate/Programing/CUDA/Test/cudatest/kernel.cu(39): warning : a __device__ variable "a" cannot be directly read in a host function
+  
+  kernel.cu
+     Creating library C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest\x64\Release\cudatest.lib and object C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest\x64\Release\cudatest.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  cudatest.vcxproj -> C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest\x64\Release\cudatest.exe

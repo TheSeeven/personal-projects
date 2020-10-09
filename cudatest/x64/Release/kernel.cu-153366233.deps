@@ -1,0 +1,79 @@
+C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest\Header.h
+C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest\kernel.cu
+C:\Programare\CUDA\Development\include\builtin_types.h
+C:\Programare\CUDA\Development\include\channel_descriptor.h
+C:\Programare\CUDA\Development\include\crt\common_functions.h
+C:\Programare\CUDA\Development\include\crt\device_double_functions.h
+C:\Programare\CUDA\Development\include\crt\device_double_functions.hpp
+C:\Programare\CUDA\Development\include\crt\device_functions.h
+C:\Programare\CUDA\Development\include\crt\device_functions.hpp
+C:\Programare\CUDA\Development\include\crt\host_config.h
+C:\Programare\CUDA\Development\include\crt\host_defines.h
+C:\Programare\CUDA\Development\include\crt\math_functions.h
+C:\Programare\CUDA\Development\include\crt\math_functions.hpp
+C:\Programare\CUDA\Development\include\crt\sm_70_rt.h
+C:\Programare\CUDA\Development\include\crt\sm_80_rt.h
+C:\Programare\CUDA\Development\include\cuda_device_runtime_api.h
+C:\Programare\CUDA\Development\include\cuda_runtime.h
+C:\Programare\CUDA\Development\include\cuda_runtime_api.h
+C:\Programare\CUDA\Development\include\cuda_surface_types.h
+C:\Programare\CUDA\Development\include\cuda_texture_types.h
+C:\Programare\CUDA\Development\include\device_atomic_functions.h
+C:\Programare\CUDA\Development\include\device_launch_parameters.h
+C:\Programare\CUDA\Development\include\device_types.h
+C:\Programare\CUDA\Development\include\driver_functions.h
+C:\Programare\CUDA\Development\include\driver_types.h
+C:\Programare\CUDA\Development\include\library_types.h
+C:\Programare\CUDA\Development\include\sm_20_atomic_functions.h
+C:\Programare\CUDA\Development\include\sm_20_intrinsics.h
+C:\Programare\CUDA\Development\include\sm_30_intrinsics.h
+C:\Programare\CUDA\Development\include\sm_32_atomic_functions.h
+C:\Programare\CUDA\Development\include\sm_32_intrinsics.h
+C:\Programare\CUDA\Development\include\sm_35_atomic_functions.h
+C:\Programare\CUDA\Development\include\sm_35_intrinsics.h
+C:\Programare\CUDA\Development\include\sm_60_atomic_functions.h
+C:\Programare\CUDA\Development\include\sm_61_intrinsics.h
+C:\Programare\CUDA\Development\include\surface_functions.h
+C:\Programare\CUDA\Development\include\surface_indirect_functions.h
+C:\Programare\CUDA\Development\include\surface_types.h
+C:\Programare\CUDA\Development\include\texture_fetch_functions.h
+C:\Programare\CUDA\Development\include\texture_indirect_functions.h
+C:\Programare\CUDA\Development\include\texture_types.h
+C:\Programare\CUDA\Development\include\vector_functions.h
+C:\Programare\CUDA\Development\include\vector_functions.hpp
+C:\Programare\CUDA\Development\include\vector_types.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\cmath
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\concurrencysal.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\crtdefs.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\cstdlib
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\limits.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\sal.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\use_ansi.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\vadefs.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\vcruntime.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\vcruntime_new.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\vcruntime_new_debug.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\vcruntime_string.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\xkeycheck.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\xtr1common
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\yvals.h
+C:\Programare\Visual Studio\IDE\VC\Tools\MSVC\14.26.28801\include\yvals_core.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_malloc.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memory.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_search.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_stdio_config.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wtime.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\errno.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\math.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\stddef.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h
+C:\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h

@@ -1,0 +1,1 @@
+C:\Onedrive\Documents\Facultate\Programing\CUDA\Test\cudatest\x64\Release\cudatest.exe

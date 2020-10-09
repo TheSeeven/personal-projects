@@ -1,0 +1,2 @@
+C:\Onedrive\Documents\Facultate\Programing\CUDA\Heap_test\cuda_heap_array_test\x64\Debug\cuda_heap_array_test.exe
+C:\Onedrive\Documents\Facultate\Programing\CUDA\Heap_test\cuda_heap_array_test\x64\Debug\cuda_heap_array_test.pdb
