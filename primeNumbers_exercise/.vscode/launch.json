@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Java - arguments external",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Java - External,args",
+            "request": "launch",
+            "console": "externalTerminal",
+            "args": ["7","7"],
+            "mainClass": ""
+        },
+
+        {
+            "type": "java",
+            "name": "Java - internal",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug Java",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "ex_1"
+        }
+    ]
+}

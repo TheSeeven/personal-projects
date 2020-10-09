@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "",
+            "args": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula enim, rhoncus tempor volutpat ut, ullamcorper ut ipsum. Curabitur rhoncus at sapien ac condimentum. Curabitur ac laoreet massa, ac fringilla eros. Ut luctus elementum erat, quis ultricies dui egestas vel. In vel elit eget mauris tincidunt accumsan. Nullam lobortis vehicula blandit. Nulla ut neque ultricies eros mattis fringilla quis ut dolor. Proin vestibulum felis eget mauris sodales, in blandit velit faucibus. Curabitur cursus leo lectus, et cursus felis fermentum non. Maecenas commodo orci at pulvinar imperdiet."]
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<ex_2>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "ex_2"
+        }
+    ]
+}

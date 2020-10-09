@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "java - External,arghs",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "",
+            "args":["3","31","madddd"]
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<exercitiu_suplimentare_cards>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "exercitiu_suplimentare_cards",
+            
+        }
+    ]
+}
