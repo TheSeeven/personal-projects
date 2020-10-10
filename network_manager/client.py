@@ -1,10 +1,10 @@
 import socket
 import threading
 import time
-from tools import *
+import tools
 
-HOST = '127.0.0.1'  # The server's hostname or IP address
-PORT = 5000        # The port used by the server
+HOST = '192.168.1.110'  # The server's hostname or IP address
+PORT = 3301        # The port used by the server
 
 
 def execute_querry(message):
@@ -15,7 +15,7 @@ def execute_querry(message):
 
     soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     soc.connect((HOST,PORT))
-    soc.sendall(bytes(parse_message(message),'ASCII'))
+    soc.sendall(bytes(tools.parse_message(message),'ASCII'))
 
     while True:
         try:
@@ -45,4 +45,4 @@ def function6():
 while(True):
     t1 = threading.Thread(target=function6)
     t1.start()
-    time.sleep(0.1)
+    time.sleep(2)
