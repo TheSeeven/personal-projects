@@ -1,93 +1,48 @@
 import socket
 import threading
 import time
+from tools import *
 
 HOST = '127.0.0.1'  # The server's hostname or IP address
 PORT = 5000        # The port used by the server
 
 
-# soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-# soc.connect((HOST,PORT))
+def execute_querry(message):
+    GOT_SIZE=False
+    SIZE = 1
+    TEMP_SIZE=""
+    data=False
 
+    soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    soc.connect((HOST,PORT))
+    soc.sendall(bytes(parse_message(message),'ASCII'))
 
-
-def function1():
     while True:
-        time.sleep(1)
-        soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        soc.connect((HOST,PORT))  
-        soc.sendall(b'12:function1$')
-        data = soc.recv(100).decode()
-        print('function1 - ', repr(data))
-        soc.close()
+        try:
+            data=soc.recv(SIZE)
+        except:
+            break
+        if not GOT_SIZE:
+            try:
+                temp=int(data.decode())
+                TEMP_SIZE+=str(temp)
+                continue
+            except:
+                SIZE=int(TEMP_SIZE)
+                GOT_SIZE=True
+                continue
+        break
+    if data:
+        return data.decode()
 
+    soc.close()
+    return False
 
-def function2():
-    while True:
-        time.sleep(2)
-        soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        soc.connect((HOST,PORT)) 
-        soc.sendall(b'11:function2$')
-        data = soc.recv(100).decode()
-        print('function2 - ', repr(data))
-        soc.close()
-
-def function3():
-    while True:
-       
-        soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        soc.connect((HOST,PORT))
-        time.sleep(3)
-        soc.sendall(b'10:function3')
-        data = soc.recv(100).decode()
-        print('function3 - ', repr(data))
-        soc.close()
-
-def function4():
-    while True:
-       
-        soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        soc.connect((HOST,PORT))
-        time.sleep(1)
-        soc.sendall(b'10:function4')
-        data = soc.recv(100).decode()
-        print('function3 - ', repr(data))
-        soc.close()
-
-def function5():
-    while True:
-       
-        soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        soc.connect((HOST,PORT))
-        time.sleep(0.5)
-        soc.sendall(b'10:function5')
-        data = soc.recv(100).decode()
-        print('function3 - ', repr(data))
-        soc.close()
 
 def function6():
-    while True:
-       
-        soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        soc.connect((HOST,PORT))
-        time.sleep(0.1)
-        soc.sendall(b'10:function6')
-        data = soc.recv(100).decode()
-        print('function3 - ', repr(data))
-        soc.close()
+    print(execute_querry("get_types[]"))
 
-
-
-t1 = threading.Thread(target=function1)
-t2 = threading.Thread(target=function2)
-t3 = threading.Thread(target=function3)
-t4 = threading.Thread(target=function4)
-t5 = threading.Thread(target=function5)
-t6 = threading.Thread(target=function6)
-
-t1.start()
-t2.start()
-t3.start()
-t4.start()
-t5.start()
-t6.start()
+while(True):
+    t1 = threading.Thread(target=function6)
+    t1.start()
+    time.sleep(0.1)
