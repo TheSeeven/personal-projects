@@ -1,0 +1,4 @@
+﻿  SC_Lab2.c
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab2\SC_Lab2\SC_Lab2.c(47,11): warning C4013: 'memset' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab2\SC_Lab2\SC_Lab2.c(43): warning C4715: 'getCoordinates': not all control paths return a value
+  SC_Lab2.vcxproj -> C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab2\Debug\SC_Lab2.exe

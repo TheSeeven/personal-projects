@@ -1,0 +1,3 @@
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Debug\Tema2_SC.vcxproj.MdMergeInputs.cache
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Debug\Tema2_SC.vcxproj.cppwinrt_plat.cache
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Debug\Tema2_SC.vcxproj.cppwinrt_comp.cache

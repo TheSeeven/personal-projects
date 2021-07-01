@@ -1,0 +1,6 @@
+﻿  SC_Lab3.c
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab3\SC_Lab3\SC_Lab3.c(40,11): warning C4013: 'memset' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab3\SC_Lab3\SC_Lab3.c(56,33): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab3\SC_Lab3\SC_Lab3.c(65,23): warning C4018: '<': signed/unsigned mismatch
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab3\SC_Lab3\SC_Lab3.c(86,23): warning C4018: '<': signed/unsigned mismatch
+  SC_Lab3.vcxproj -> C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab3\Debug\SC_Lab3.exe

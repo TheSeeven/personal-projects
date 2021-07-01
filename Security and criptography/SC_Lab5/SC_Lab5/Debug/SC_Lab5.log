@@ -1,0 +1,8 @@
+﻿  SC_Lab5.c
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab5\SC_Lab5\SC_Lab5.c(22,32): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab5\SC_Lab5\SC_Lab5.c(25,9): warning C4013: 'memset' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab5\SC_Lab5\SC_Lab5.c(30,33): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab5\SC_Lab5\SC_Lab5.c(30,24): warning C4018: '>=': signed/unsigned mismatch
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab5\SC_Lab5\SC_Lab5.c(47,24): warning C4018: '>=': signed/unsigned mismatch
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab5\SC_Lab5\SC_Lab5.c(94,6): warning C4013: 'free' undefined; assuming extern returning int
+  SC_Lab5.vcxproj -> C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\SC_Lab5\Debug\SC_Lab5.exe

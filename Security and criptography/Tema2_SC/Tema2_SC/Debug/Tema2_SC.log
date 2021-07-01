@@ -1,0 +1,14 @@
+﻿  Tema2_SC.c
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Kasisky.h(22,9): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Kasisky.h(38,14): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Kasisky.h(69,8): warning C4013: 'memset' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Kasisky.h(75,23): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Kasisky.h(90,38): warning C4047: 'function': 'StringOccurence **' differs in levels of indirection from 'StringOccurence *'
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Kasisky.h(90,29): warning C4024: 'increment': different types for formal and actual parameter 2
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Tema2_SC.c(55,21): warning C4018: '<': signed/unsigned mismatch
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Tema2_SC.c(78,21): warning C4018: '<': signed/unsigned mismatch
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Tema2_SC.c(150,15): warning C4133: 'return': incompatible types - from 'char [50]' to 'int *'
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Tema2_SC.c(176,73): warning C4047: '=': 'int' differs in levels of indirection from 'StringOccurence *'
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Tema2_SC.c(180,1): warning C4133: 'initializing': incompatible types - from 'int *' to 'char *'
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Tema2_SC\Tema2_SC.c(150): warning C4172: returning address of local variable or temporary: result
+  Tema2_SC.vcxproj -> C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Securitate si Criptografie\Tema2_SC\Debug\Tema2_SC.exe

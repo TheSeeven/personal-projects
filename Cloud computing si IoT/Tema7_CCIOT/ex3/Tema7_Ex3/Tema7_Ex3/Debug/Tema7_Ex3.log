@@ -1,0 +1,4 @@
+﻿  Tema7_Ex3.cpp
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Cloud computing si IoT\Tema7_CCIOT\ex3\Tema7_Ex3\Tema7_Ex3\Tema7_Ex3.cpp(85): warning C4715: 'getInventionById': not all control paths return a value
+C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Cloud computing si IoT\Tema7_CCIOT\ex3\Tema7_Ex3\Tema7_Ex3\Tema7_Ex3.cpp(106): warning C4715: 'getImpactAreaById': not all control paths return a value
+  Tema7_Ex3.vcxproj -> C:\Onedrive\Documents\Facultate\Cursuri\Anul 3\Semestrul 2\Cloud computing si IoT\Tema7_CCIOT\ex3\Tema7_Ex3\Debug\Tema7_Ex3.exe
