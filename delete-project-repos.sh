@@ -3,6 +3,7 @@ set -euo pipefail
 
 OWNER="${GITHUB_OWNER:-}"
 APPLY="false"
+<<<<<<< ours
 ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
 MANIFEST_FILE="${ROOT_DIR}/project-repos.manifest"
 FROM_MANIFEST="false"
@@ -10,13 +11,24 @@ FROM_MANIFEST="false"
 usage() {
   cat <<EOUSAGE
 Usage: ./delete-project-repos.sh --owner <github_username_or_org> [--from-manifest] [--manifest-file <path>] [--apply] <glob1> [glob2 ...]
+=======
+
+usage() {
+  cat <<EOF
+Usage: ./delete-project-repos.sh --owner <github_username_or_org> [--apply] <glob1> [glob2 ...]
+>>>>>>> theirs
 
 Default mode is dry-run (lists what would be deleted).
 Examples:
   ./delete-project-repos.sh --owner TheSeeven 'security-and-criptography*' 'gui-*'
+<<<<<<< ours
   ./delete-project-repos.sh --owner TheSeeven --from-manifest 'Security and criptography/*' 'GUI/*'
   ./delete-project-repos.sh --owner TheSeeven --apply 'cloud-computing-si-iot*'
 EOUSAGE
+=======
+  ./delete-project-repos.sh --owner TheSeeven --apply 'cloud-computing-si-iot*'
+EOF
+>>>>>>> theirs
 }
 
 while [[ $# -gt 0 ]]; do
@@ -25,10 +37,13 @@ while [[ $# -gt 0 ]]; do
       OWNER="$2"; shift 2 ;;
     --apply)
       APPLY="true"; shift ;;
+<<<<<<< ours
     --from-manifest)
       FROM_MANIFEST="true"; shift ;;
     --manifest-file)
       MANIFEST_FILE="$2"; shift 2 ;;
+=======
+>>>>>>> theirs
     -h|--help)
       usage; exit 0 ;;
     --)
@@ -42,6 +57,10 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+<<<<<<< ours
+=======
+
+>>>>>>> theirs
 if ! command -v gh >/dev/null 2>&1; then
   echo "GitHub CLI (gh) is required." >&2
   exit 1
@@ -71,6 +90,7 @@ fi
 
 echo "Owner: $OWNER"
 echo "Mode: $([[ "$APPLY" == "true" ]] && echo APPLY || echo DRY-RUN)"
+<<<<<<< ours
 echo "Match source: $([[ "$FROM_MANIFEST" == "true" ]] && echo manifest || echo repository-names)"
 echo "Patterns: $*"
 echo
@@ -96,6 +116,13 @@ for source_name in "${source_names[@]}"; do
   if [[ "$FROM_MANIFEST" == "true" ]]; then
     repo="$(slugify_repo_name "$source_name")"
   fi
+=======
+echo "Patterns: $*"
+echo
+
+matches=()
+for repo in "${repos[@]}"; do
+>>>>>>> theirs
   for pattern in "$@"; do
     if [[ "$repo" == $pattern ]]; then
       matches+=("$repo")
@@ -104,6 +131,7 @@ for source_name in "${source_names[@]}"; do
   done
 done
 
+<<<<<<< ours
 if [[ ${#matches[@]} -eq 0 && "$FROM_MANIFEST" != "true" && -f "$MANIFEST_FILE" ]]; then
   mapfile -t manifest_names < <(awk 'NF && $0 !~ /^#/ {print}' "$MANIFEST_FILE")
   for source_name in "${manifest_names[@]}"; do
@@ -117,10 +145,13 @@ if [[ ${#matches[@]} -eq 0 && "$FROM_MANIFEST" != "true" && -f "$MANIFEST_FILE" 
   done
 fi
 
+=======
+>>>>>>> theirs
 if [[ ${#matches[@]} -eq 0 ]]; then
   echo "No repositories matched the provided patterns."
   echo "Total repos visible to gh for $OWNER: ${#repos[@]}"
   echo
+<<<<<<< ours
   if [[ "$FROM_MANIFEST" != "true" && -f "$MANIFEST_FILE" ]]; then
     echo "Tip: if your patterns are based on manifest paths, use --from-manifest."
     echo "Example: ./delete-project-repos.sh --owner $OWNER --from-manifest 'GUI/*'"
@@ -135,8 +166,13 @@ fi
 mapfile -t matches < <(printf '%s\n' "${matches[@]}" | awk '!seen[$0]++')
 
 filtered_matches=()
+declare -A repo_exists=()
+for existing_repo in "${repos[@]}"; do
+  repo_exists["$existing_repo"]=1
+done
+
 for repo in "${matches[@]}"; do
-  if printf '%s\n' "${repos[@]}" | rg -x --fixed-strings "$repo" >/dev/null; then
+  if [[ -n "${repo_exists[$repo]:-}" ]]; then
     filtered_matches+=("$repo")
   fi
 done
@@ -145,6 +181,12 @@ matches=("${filtered_matches[@]}")
 if [[ ${#matches[@]} -eq 0 ]]; then
   echo "Patterns matched manifest-derived repo names, but none currently exist on GitHub for $OWNER."
   echo "They may already be deleted."
+=======
+  echo "Tip: check exact names with: gh repo list $OWNER --limit 500 --json name -q '.[].name'"
+  echo "First 30 visible repo names:"
+  printf ' - %s
+' "${repos[@]:0:30}"
+>>>>>>> theirs
   exit 0
 fi
 
