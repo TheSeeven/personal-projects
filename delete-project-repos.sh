@@ -79,6 +79,12 @@ done
 
 if [[ ${#matches[@]} -eq 0 ]]; then
   echo "No repositories matched the provided patterns."
+  echo "Total repos visible to gh for $OWNER: ${#repos[@]}"
+  echo
+  echo "Tip: check exact names with: gh repo list $OWNER --limit 500 --json name -q '.[].name'"
+  echo "First 30 visible repo names:"
+  printf ' - %s
+' "${repos[@]:0:30}"
   exit 0
 fi
 

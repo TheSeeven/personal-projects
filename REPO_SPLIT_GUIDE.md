@@ -126,3 +126,13 @@ Apply deletion:
 ```
 
 > Deletion is permanent. Always run dry-run first.
+
+### If delete dry-run says "No repositories matched"
+
+List exact names first (this avoids wildcard guess mistakes):
+
+```bash
+gh repo list TheSeeven --limit 500 --json name -q '.[].name'
+```
+
+Then use those exact prefixes (note: names may include `_` not only `-`).
